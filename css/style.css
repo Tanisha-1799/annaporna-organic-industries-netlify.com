@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 42px;
+    width: 10%;
+    border: 3px solid darkgreen;
+    border-radius: 150%;
+    background: rgb(214, 197, 197);    
+       
+
+}
+.text{
+    padding-left: 20px;
+    color: darkgreen !important;
+    font-weight: bold !important;
+
+}
+.pos{
+    padding-left: 30px;
+    padding-top:70px;
+}
+.image-design{
+    height:500px;
+    width: 95%;
+    background-color: white;
+    border: 4px solid darkgreen;
+    border-radius: 16px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+
+}
+#nav-bar ul li a:hover{
+    border-bottom: 2px solid darkgreen;
+
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none !important;
+
+}
+.nav-link{
+    color: darkgreen !important;
+    font-weight: 800px;
+    font-size: 16px;
+}
+#slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+
+}
+.carousel-caption h5{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.about-content{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: monospace;
+    color: rgb(6, 121, 6);
+
+}#about h2{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+
+}
+#about h2:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+#about h2::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+#products{
+    background-image: linear-gradient(rgba(44, 238, 131, 0.8),rgba(44, 238, 131, 0.8)),url("https://source.unsplash.com/1424x300/?plants");
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#products h1{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+
+}
+#products h1:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+#products h1::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter: grayscale(1);
+    border: 2px solid black;
+}
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+#promo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("https://source.unsplash.com/1424x300/?plants");
+    background-size: cover;
+    color: rgb(8, 250, 8);
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: monospace;
+    font-size: 38px;
+    font-weight: bold;
+}
+.profile-pic h2:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    color: rgb(8, 250, 8);
+}
+.btn-primary{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+.btn:hover{
+    box-shadow: 0 10px 20px darkgreen;
+}
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: darkgreen !important;
+
+}
+.contact-form{
+    padding: 15px;
+
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: darkgreen !important;
+
+}
+#contact h1{
+    text-align: center;
+    color:darkgreen !important;
+    padding-bottom: 10px;
+
+}
+#products h1:hover{
+    color: blue !important;
+    cursor: pointer;
+}
+#contact h1::after{
+    content: '';
+    background: darkgreen;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+
+}
+.contact-info .fa{
+    margin: 10px;
+    color: blue;
+    font-weight: bold;
+}
+#footer{
+    background-color: black;
+    color: rgb(8, 250, 8);
+    padding: 12px;
+}
+.fa-heart-o{
+    margin: 3px;
+    color: red !important;
+}
